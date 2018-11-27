@@ -1,0 +1,26 @@
+{
+  "name": "webpack_deepin",
+  "version": "1.0.0",
+  "description": "深入浅出webpack",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asurvovor/webpack_deepin.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "zhangjiliang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asurvovor/webpack_deepin/issues"
+  },
+  "homepage": "https://github.com/Asurvovor/webpack_deepin#readme",
+  "devDependencies": {
+    "webpack": "^3.4.0"
+  }
+}
