@@ -15,10 +15,12 @@ module.exports = {
       {
         // 用正则去匹配要用该 loader 转换的 CSS 文件
         test: /\.css$/,
-        use: ExtractTextPlugin.extract({
+        loaders: ExtractTextPlugin.extract({
           // 转换 .css 文件需要使用的 Loader
           use: ['css-loader'],
         }),
+        // test: /\.css$/,
+        // loaders: ['style-loader', 'css-loader'],
       }
     ]
   },
